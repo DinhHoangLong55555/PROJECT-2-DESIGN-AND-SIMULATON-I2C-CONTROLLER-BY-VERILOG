@@ -1,4 +1,4 @@
-Đồ án môn học 2: USING VERILOG TO DESIGN CORE I2C CONTROLLER 
+Đồ án môn học 2: Design and simulation i2c protocol by verilog
 <p>Sinh viên thực hiện:<p> 
 <p>Đinh Hoàng Long-18119093<p> 
 <p>Nguyễn Minh Tùng-181190131<p> 
