@@ -20,6 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
+// Hữu Đẹp Trai đã ghé github này
+
 module master_i2c(input wire clk,
 	input wire reset,
 	input wire [6:0] addr,
