@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="fix_doan2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="i2c_slave_1_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="i2c_slave_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="i2c_slave_model.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="i2c_slave_model.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="i2c_slave_model.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="slave_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="slave_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="slave_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_i2c_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_i2c_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_i2c_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_i2c_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1635952438" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1635952438">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1635952961" xil_pn:in_ck="9078924318492430147" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1635952961">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CLOCK_PRESCALE.v"/>
+      <outfile xil_pn:name="i2c_slave.v"/>
+      <outfile xil_pn:name="i2c_slave_1.v"/>
+      <outfile xil_pn:name="master_i2c.v"/>
+      <outfile xil_pn:name="slave_opencore.v"/>
+      <outfile xil_pn:name="tb_i2c.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1635952438" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8747503965277518634" xil_pn:start_ts="1635952438">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1635952438" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8228229211487431148" xil_pn:start_ts="1635952438">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1635952438" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7513468397161267091" xil_pn:start_ts="1635952438">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1635952961" xil_pn:in_ck="9078924318492430147" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1635952961">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CLOCK_PRESCALE.v"/>
+      <outfile xil_pn:name="i2c_slave.v"/>
+      <outfile xil_pn:name="i2c_slave_1.v"/>
+      <outfile xil_pn:name="master_i2c.v"/>
+      <outfile xil_pn:name="slave_opencore.v"/>
+      <outfile xil_pn:name="tb_i2c.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1635952965" xil_pn:in_ck="9078924318492430147" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6068463951516782901" xil_pn:start_ts="1635952961">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_i2c_beh.prj"/>
+      <outfile xil_pn:name="tb_i2c_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1635952965" xil_pn:in_ck="9035248419130639519" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3081683165379884200" xil_pn:start_ts="1635952965">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_i2c_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

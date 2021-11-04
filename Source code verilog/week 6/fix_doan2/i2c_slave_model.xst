@@ -1,0 +1,5 @@
+set -tmpdir "C:/Verilog/fix_doan2/xst/projnav.tmp"
+set -xsthdpdir "C:/Verilog/fix_doan2/xst"
+elaborate
+-ifn i2c_slave_model.prj
+-ifmt mixed

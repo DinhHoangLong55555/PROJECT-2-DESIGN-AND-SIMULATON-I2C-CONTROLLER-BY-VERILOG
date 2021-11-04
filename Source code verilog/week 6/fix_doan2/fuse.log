@@ -1,0 +1,29 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Verilog/fix_doan2/tb_i2c_isim_beh.exe -prj C:/Verilog/fix_doan2/tb_i2c_beh.prj work.tb_i2c work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Verilog/fix_doan2/slave_opencore.v" into library work
+Analyzing Verilog file "C:/Verilog/fix_doan2/master_i2c.v" into library work
+Analyzing Verilog file "C:/Verilog/fix_doan2/i2c_slave_1.v" into library work
+WARNING:HDLCompiler:751 - "C:/Verilog/fix_doan2/i2c_slave_1.v" Line 41: Redeclaration of ansi port data_in is not allowed
+Analyzing Verilog file "C:/Verilog/fix_doan2/i2c_slave.v" into library work
+Analyzing Verilog file "C:/Verilog/fix_doan2/tb_i2c.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Verilog/fix_doan2/tb_i2c.v" Line 62: Port data_in is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Verilog/fix_doan2/tb_i2c.v" Line 70: Port data_in is not connected to this instance
+Completed static elaboration
+Compiling module master_i2c
+Compiling module i2c_slave
+Compiling module i2c_slave_1
+Compiling module i2c_slave_model
+Compiling module tb_i2c
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\tb_i2c_isim_beh.exe.sim\libPortability.dll".
+Compiled 6 Verilog Units
+Built simulation executable C:/Verilog/fix_doan2/tb_i2c_isim_beh.exe
+Fuse Memory Usage: 27988 KB
+Fuse CPU Usage: 625 ms

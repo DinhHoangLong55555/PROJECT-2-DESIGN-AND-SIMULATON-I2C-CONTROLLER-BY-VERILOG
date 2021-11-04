@@ -1,0 +1,280 @@
+ISim log file
+Running: C:\Verilog\fix_doan2\tb_i2c_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Verilog/fix_doan2/tb_i2c_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+DEBUG i2c_slave; stop condition detected at                    0
+DEBUG i2c_slave; start condition detected at               116000
+WARNING: at 116 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( scl:0 ps, sda:116 ns,4700 ns)
+
+
+WARNING: at 132 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:0 ps, :132 ns, 4 us)
+
+
+WARNING: at 132 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:132 ns,4 us)
+
+
+WARNING: at 140 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:132 ns, :140 ns, 4700 ns)
+
+
+WARNING: at 148 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:140 ns, :148 ns, 4 us)
+
+
+WARNING: at 148 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:148 ns,4 us)
+
+
+WARNING: at 156 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:148 ns, :156 ns, 4700 ns)
+
+
+WARNING: at 164 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:156 ns, :164 ns, 4 us)
+
+
+WARNING: at 164 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:164 ns,4 us)
+
+
+WARNING: at 172 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:164 ns, :172 ns, 4700 ns)
+
+
+WARNING: at 180 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:172 ns, :180 ns, 4 us)
+
+
+WARNING: at 188 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:180 ns, :188 ns, 4700 ns)
+
+
+WARNING: at 196 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:188 ns, :196 ns, 4 us)
+
+
+WARNING: at 196 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:196 ns,4 us)
+
+
+WARNING: at 204 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:196 ns, :204 ns, 4700 ns)
+
+
+WARNING: at 212 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:204 ns, :212 ns, 4 us)
+
+
+WARNING: at 212 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:212 ns,4 us)
+
+
+WARNING: at 220 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:212 ns, :220 ns, 4700 ns)
+
+
+WARNING: at 228 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:220 ns, :228 ns, 4 us)
+
+
+WARNING: at 228 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:228 ns,4 us)
+
+
+WARNING: at 236 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:228 ns, :236 ns, 4700 ns)
+
+
+WARNING: at 244 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:236 ns, :244 ns, 4 us)
+
+
+WARNING: at 244 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:244 ns,4 us)
+
+
+WARNING: at 252 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:244 ns, :252 ns, 4700 ns)
+
+
+WARNING: at 260 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:252 ns, :260 ns, 4 us)
+
+
+WARNING: at 260 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:260 ns,4 us)
+
+
+DEBUG i2c_slave; command byte received (write) at               262000
+WARNING: at 268 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:260 ns, :268 ns, 4700 ns)
+
+
+WARNING: at 276 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:268 ns, :276 ns, 4 us)
+
+
+WARNING: at 276 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:276 ns,4 us)
+
+
+WARNING: at 284 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:276 ns, :284 ns, 4700 ns)
+
+
+WARNING: at 292 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:284 ns, :292 ns, 4 us)
+
+
+WARNING: at 300 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:292 ns, :300 ns, 4700 ns)
+
+
+WARNING: at 308 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:300 ns, :308 ns, 4 us)
+
+
+WARNING: at 316 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:308 ns, :316 ns, 4700 ns)
+
+
+WARNING: at 324 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:316 ns, :324 ns, 4 us)
+
+
+WARNING: at 332 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:324 ns, :332 ns, 4700 ns)
+
+
+WARNING: at 340 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:332 ns, :340 ns, 4 us)
+
+
+WARNING: at 348 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:340 ns, :348 ns, 4700 ns)
+
+
+WARNING: at 356 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:348 ns, :356 ns, 4 us)
+
+
+WARNING: at 356 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:356 ns,4 us)
+
+
+WARNING: at 364 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:356 ns, :364 ns, 4700 ns)
+
+
+WARNING: at 372 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:364 ns, :372 ns, 4 us)
+
+
+WARNING: at 372 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:372 ns,4 us)
+
+
+WARNING: at 380 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:372 ns, :380 ns, 4700 ns)
+
+
+WARNING: at 388 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:380 ns, :388 ns, 4 us)
+
+
+WARNING: at 388 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:388 ns,4 us)
+
+
+WARNING: at 396 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:388 ns, :396 ns, 4700 ns)
+
+
+WARNING: at 404 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:396 ns, :404 ns, 4 us)
+
+
+WARNING: at 404 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:404 ns,4 us)
+
+
+DEBUG i2c_slave; address received. adr=f0, ack=1
+WARNING: at 412 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:404 ns, :412 ns, 4700 ns)
+
+
+WARNING: at 420 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:412 ns, :420 ns, 4 us)
+
+
+WARNING: at 420 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:420 ns,4 us)
+
+
+WARNING: at 428 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:420 ns, :428 ns, 4700 ns)
+
+
+WARNING: at 436 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:428 ns, :436 ns, 4 us)
+
+
+WARNING: at 444 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:436 ns, :444 ns, 4700 ns)
+
+
+WARNING: at 452 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:444 ns, :452 ns, 4 us)
+
+
+WARNING: at 460 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:452 ns, :460 ns, 4700 ns)
+
+
+WARNING: at 468 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:460 ns, :468 ns, 4 us)
+
+
+WARNING: at 476 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:468 ns, :476 ns, 4700 ns)
+
+
+WARNING: at 484 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:476 ns, :484 ns, 4 us)
+
+
+WARNING: at 492 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:484 ns, :492 ns, 4700 ns)
+
+
+WARNING: at 500 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:492 ns, :500 ns, 4 us)
+
+
+WARNING: at 500 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:500 ns,4 us)
+
+
+WARNING: at 508 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:500 ns, :508 ns, 4700 ns)
+
+
+WARNING: at 516 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:508 ns, :516 ns, 4 us)
+
+
+WARNING: at 516 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:516 ns,4 us)
+
+
+WARNING: at 524 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:516 ns, :524 ns, 4700 ns)
+
+
+WARNING: at 532 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:524 ns, :532 ns, 4 us)
+
+
+WARNING: at 532 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:532 ns,4 us)
+
+
+WARNING: at 540 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:532 ns, :540 ns, 4700 ns)
+
+
+WARNING: at 548 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:540 ns, :548 ns, 4 us)
+
+
+WARNING: at 548 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:548 ns,4 us)
+
+
+DEBUG i2c_slave; data block write f0 to address f0
+WARNING: at 556 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:548 ns, :556 ns, 4700 ns)
+
+
+WARNING: at 564 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:556 ns, :564 ns, 4 us)
+
+
+WARNING: at 564 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:564 ns,4 us)
+
+
+WARNING: at 572 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:564 ns, :572 ns, 4700 ns)
+
+
+WARNING: at 580 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:572 ns, :580 ns, 4 us)
+
+
+WARNING: at 588 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:580 ns, :588 ns, 4700 ns)
+
+
+WARNING: at 596 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:588 ns, :596 ns, 4 us)
+
+
+WARNING: at 604 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:596 ns, :604 ns, 4700 ns)
+
+
+WARNING: at 612 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:604 ns, :612 ns, 4 us)
+
+
+WARNING: at 620 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:612 ns, :620 ns, 4700 ns)
+
+
+WARNING: at 628 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:620 ns, :628 ns, 4 us)
+
+
+WARNING: at 636 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:628 ns, :636 ns, 4700 ns)
+
+
+WARNING: at 644 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:636 ns, :644 ns, 4 us)
+
+
+WARNING: at 644 ns: Timing violation in /tb_i2c/slave_opencore/  $setup( sda:116 ns, scl:644 ns,4 us)
+
+
+WARNING: at 650 ns: Timing violation in /tb_i2c/slave_opencore/  $width( scl:644 ns, :650 ns, 4700 ns)
+
+
+DEBUG i2c_slave; stop condition detected at               650000
