@@ -1,4 +1,4 @@
-Đồ án môn học 2: DESIGN AND SIMULATION I2C PROTOCOL BY VERILOG
+Đồ án môn học 2: DESIGN AND SIMULATION I2C CONTROLLER BY VERILOG
 <p>Sinh viên thực hiện:<p> 
 <p>Đinh Hoàng Long-18119093<p> 
 <p>Nguyễn Minh Tùng-181190131<p> 
