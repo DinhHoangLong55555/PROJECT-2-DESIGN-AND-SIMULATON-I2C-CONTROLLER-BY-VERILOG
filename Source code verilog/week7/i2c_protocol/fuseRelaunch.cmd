@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/BT ISE/i2c_protocol/tb_i2c_isim_beh.exe" -prj "C:/BT ISE/i2c_protocol/tb_i2c_beh.prj" "work.tb_i2c" "work.glbl" 

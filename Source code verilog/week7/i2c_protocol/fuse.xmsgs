@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/BT ISE/i2c_protocol/i2c_slave.v" Line 45: Redeclaration of ansi port <arg fmt="%s" index="1">data_in</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/BT ISE/i2c_protocol/tb_i2c.v" Line 62: Port <arg fmt="%s" index="1">data_in</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/BT ISE/i2c_protocol/tb_i2c.v" Line 70: Port <arg fmt="%s" index="1">data_in</arg> is not connected to this instance
+</msg>
+
+</messages>
+

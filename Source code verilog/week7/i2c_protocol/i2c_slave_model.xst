@@ -1,0 +1,5 @@
+set -tmpdir "C:/BT ISE/i2c_protocol/xst/projnav.tmp"
+set -xsthdpdir "C:/BT ISE/i2c_protocol/xst"
+elaborate
+-ifn i2c_slave_model.prj
+-ifmt mixed

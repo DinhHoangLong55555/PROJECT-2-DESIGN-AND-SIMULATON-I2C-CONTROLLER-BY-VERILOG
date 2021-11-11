@@ -1,0 +1,5 @@
+MO i2c_slave NULL i2c_slave.v vlg64/i2c__slave.bin 1635954161
+MO CLOCK_PRESCALE NULL CLOCK_PRESCALE.v vlg2E/_c_l_o_c_k___p_r_e_s_c_a_l_e.bin 1635953849
+MO master_i2c NULL master_i2c.v vlg49/master__i2c.bin 1635953872
+MO i2c_slave_model NULL i2c_slave_model.v vlg28/i2c__slave__model.bin 1635954232
+MO i2c_slave_1 NULL i2c_slave_1.v vlg50/i2c__slave__1.bin 1635954221
